@@ -1,0 +1,20 @@
+@import "../tools.responsive-size";
+
+.my-wrapper-02 {
+	@include tkwk-responsive-size(50%, 240, 105);
+}
+.my-wrapper-03 {
+	@include tkwk-responsive-size(600px, 240, 105);
+	max-width: none;
+}
+.my-wrapper-04 {
+	@include tkwk-responsive-size(60px, 240, 105);
+	display: inline-block;
+	vertical-align: middle;
+}
+.my-wrapper-05 {
+	@include tkwk-responsive-size(100%, 600, 300);
+}
+.my-wrapper-06 {
+	@include tkwk-responsive-size(50%, 560, 315);
+}

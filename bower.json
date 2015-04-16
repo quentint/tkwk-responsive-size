@@ -1,0 +1,22 @@
+{
+  "name": "tkwk-responsive-size",
+  "version": "0.1.0",
+  "homepage": "https://github.com/quentint/tkwk-responsive-size",
+  "authors": [
+    "Quentin <quentin.t@gmail.com>"
+  ],
+  "description": "Quick mixin to simplify embed sizing with SASS",
+  "main": "_tools.responsive-size.scss",
+  "keywords": [
+    "css",
+    "sass",
+    "svg",
+    "embed",
+    "iframe",
+    "object",
+    "responsive",
+    "mixin",
+    "tkwk"
+  ],
+  "license": "MIT"
+}
