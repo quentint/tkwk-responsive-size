@@ -13,8 +13,12 @@
 	}
 }
 
-@mixin tkwk-responsive-size($requested-width, $initial-width, $initial-height) {
-	@extend %tkwk-responsive-wrapper;
+@mixin tkwk-responsive-size--bis($requested-width, $initial-width, $initial-height) {
 	width: $requested-width;
 	padding-bottom: ($initial-height / $initial-width) * $requested-width;
+}
+
+@mixin tkwk-responsive-size($requested-width, $initial-width, $initial-height) {
+	@extend %tkwk-responsive-wrapper;
+	@include tkwk-responsive-size--bis($requested-width, $initial-width, $initial-height);
 }
